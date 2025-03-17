@@ -1,0 +1,27 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/1.PC/program_counter.v,1742023393,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/1.REGISTER FILE/redister_file.v,,ProgramCounter,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/2.INSTRUCTION MEMORY/instruction_memory.v,1742038755,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/4.MEMORY ACCESS/2.MA_WB PIPELINE/ma_wb_register.v,,InstructionMemory,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/3.IF_ID PIPELINE/if_id_register.v,1742023516,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/3.IMMEDIATE GENERATOR/immediate_generator.v,,IF_ID_PipelineReg,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/instruction_fetch.v,1742027668,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/2.INSTRUCTION MEMORY/instruction_memory.v,,InstructionFetch,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/1.REGISTER FILE/redister_file.v,1742040848,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v,,RegisterFile,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/2.CONTROL UNIT/control_unit.v,1742024410,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/4.MEMORY ACCESS/1.DATA MEMORY/data_memory.v,,ControlUnit,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/3.IMMEDIATE GENERATOR/immediate_generator.v,1742025206,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/instruction_decode.v,,ImmediateGenerator,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/4.HAZARD DETECTION/hazard_detection.v,1742025209,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/5.ID_EX PIPELINE/id_ex_register.v,,HazardDetectionUnit,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/5.ID_EX PIPELINE/id_ex_register.v,1742038707,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/3.IF_ID PIPELINE/if_id_register.v,,ID_EX_PipelineReg,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/instruction_decode.v,1742027584,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/instruction_fetch.v,,InstructionDecode,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/1.ALU/alu.v,1742027789,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/2.ALU CONTROL UNIT/alu_control_unit.v,,ALU,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/2.ALU CONTROL UNIT/alu_control_unit.v,1742027861,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/2.CONTROL UNIT/control_unit.v,,ALUControlUnit,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/3.FORWARDING UNIT/forwarding_unit.v,1742038664,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/4.HAZARD DETECTION/hazard_detection.v,,ForwardingUnit,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/EX_MA PIPELINE/ex_ma_register.v,1742038515,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/execute.v,,EX_MEM_PipelineReg,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/execute.v,1742038639,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/3.FORWARDING UNIT/forwarding_unit.v,,Execute,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/4.MEMORY ACCESS/1.DATA MEMORY/data_memory.v,1742035981,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/EX_MA PIPELINE/ex_ma_register.v,,DataMemory,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/4.MEMORY ACCESS/2.MA_WB PIPELINE/ma_wb_register.v,1742038830,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/4.MEMORY ACCESS/memory_access.v,,MEM_WB_PipelineReg,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/4.MEMORY ACCESS/memory_access.v,1742037628,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/1.PC/program_counter.v,,MemoryAccess,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/5.WRITE BACK/1.WRITE BACK MUX/write_back_mux.v,1742037685,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/SIM/risc_v_tb.v,,WriteBackMux,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/5.WRITE BACK/write_back.v,1742037954,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/5.WRITE BACK/1.WRITE BACK MUX/write_back_mux.v,,WriteBack,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v,1740926873,verilog,,C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/5.WRITE BACK/write_back.v,,RISC_V_Processor,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/SIM/risc_v_tb.v,1740927616,verilog,,,,RISC_V_Processor_tb,,,,,,,,
+C:/Users/Mujtaba Nazir/Desktop/RISC V Up/VIVADO/risc_v_1/risc_v_1.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,

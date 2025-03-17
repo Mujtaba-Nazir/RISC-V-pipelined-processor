@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../RTL/3.EXECUTE/1.ALU/alu.v" \
+"../../../../../../RTL/3.EXECUTE/2.ALU CONTROL UNIT/alu_control_unit.v" \
+"../../../../../../RTL/2.INSTRUCTION DECODE/2.CONTROL UNIT/control_unit.v" \
+"../../../../../../RTL/4.MEMORY ACCESS/1.DATA MEMORY/data_memory.v" \
+"../../../../../../RTL/3.EXECUTE/EX_MA PIPELINE/ex_ma_register.v" \
+"../../../../../../RTL/3.EXECUTE/execute.v" \
+"../../../../../../RTL/3.EXECUTE/3.FORWARDING UNIT/forwarding_unit.v" \
+"../../../../../../RTL/2.INSTRUCTION DECODE/4.HAZARD DETECTION/hazard_detection.v" \
+"../../../../../../RTL/2.INSTRUCTION DECODE/5.ID_EX PIPELINE/id_ex_register.v" \
+"../../../../../../RTL/1.INSTRUCTION FETCH/3.IF_ID PIPELINE/if_id_register.v" \
+"../../../../../../RTL/2.INSTRUCTION DECODE/3.IMMEDIATE GENERATOR/immediate_generator.v" \
+"../../../../../../RTL/2.INSTRUCTION DECODE/instruction_decode.v" \
+"../../../../../../RTL/1.INSTRUCTION FETCH/instruction_fetch.v" \
+"../../../../../../RTL/1.INSTRUCTION FETCH/2.INSTRUCTION MEMORY/instruction_memory.v" \
+"../../../../../../RTL/4.MEMORY ACCESS/2.MA_WB PIPELINE/ma_wb_register.v" \
+"../../../../../../RTL/4.MEMORY ACCESS/memory_access.v" \
+"../../../../../../RTL/1.INSTRUCTION FETCH/1.PC/program_counter.v" \
+"../../../../../../RTL/2.INSTRUCTION DECODE/1.REGISTER FILE/redister_file.v" \
+"../../../../../../RTL/6.TOP/risc_v_top.v" \
+"../../../../../../RTL/5.WRITE BACK/write_back.v" \
+"../../../../../../RTL/5.WRITE BACK/1.WRITE BACK MUX/write_back_mux.v" \
+"../../../../../../SIM/risc_v_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

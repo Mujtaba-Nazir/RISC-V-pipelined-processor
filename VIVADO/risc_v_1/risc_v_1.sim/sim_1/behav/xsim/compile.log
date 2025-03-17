@@ -1,0 +1,46 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/1.ALU/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/2.ALU CONTROL UNIT/alu_control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/2.CONTROL UNIT/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/4.MEMORY ACCESS/1.DATA MEMORY/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/EX_MA PIPELINE/ex_ma_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM_PipelineReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/execute.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Execute
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/3.FORWARDING UNIT/forwarding_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/4.HAZARD DETECTION/hazard_detection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/5.ID_EX PIPELINE/id_ex_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX_PipelineReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/3.IF_ID PIPELINE/if_id_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_PipelineReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/3.IMMEDIATE GENERATOR/immediate_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmediateGenerator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/instruction_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionDecode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/instruction_fetch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionFetch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/2.INSTRUCTION MEMORY/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/4.MEMORY ACCESS/2.MA_WB PIPELINE/ma_wb_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_PipelineReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/4.MEMORY ACCESS/memory_access.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MemoryAccess
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/1.PC/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/1.REGISTER FILE/redister_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_Processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/5.WRITE BACK/write_back.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WriteBack
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/5.WRITE BACK/1.WRITE BACK MUX/write_back_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WriteBackMux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/SIM/risc_v_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_Processor_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/VIVADO/risc_v_1/risc_v_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

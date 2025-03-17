@@ -1,0 +1,28 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_Processor_tb_behav xil_defaultlib.RISC_V_Processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'if_id_pc' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:29]
+ERROR: [VRFC 10-3180] cannot find port 'if_id_instr' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:28]
+ERROR: [VRFC 10-3180] cannot find port 'reset' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:27]
+ERROR: [VRFC 10-3180] cannot find port 'clk' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:26]
+ERROR: [VRFC 10-3180] cannot find port 'id_ex_alu_src' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:53]
+ERROR: [VRFC 10-3180] cannot find port 'id_ex_mem_to_reg' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:52]
+ERROR: [VRFC 10-3180] cannot find port 'id_ex_mem_write' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:51]
+ERROR: [VRFC 10-3180] cannot find port 'id_ex_mem_read' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:50]
+ERROR: [VRFC 10-3180] cannot find port 'id_ex_reg_write' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:49]
+ERROR: [VRFC 10-3180] cannot find port 'id_ex_alu_control' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:48]
+ERROR: [VRFC 10-3180] cannot find port 'id_ex_rd' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:47]
+ERROR: [VRFC 10-3180] cannot find port 'id_ex_rs2' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:46]
+ERROR: [VRFC 10-3180] cannot find port 'id_ex_rs1' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:45]
+ERROR: [VRFC 10-3180] cannot find port 'id_ex_imm' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:44]
+ERROR: [VRFC 10-3180] cannot find port 'id_ex_read_data2' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:43]
+ERROR: [VRFC 10-3180] cannot find port 'id_ex_read_data1' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:42]
+ERROR: [VRFC 10-3180] cannot find port 'id_ex_pc' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:41]
+ERROR: [VRFC 10-3180] cannot find port 'write_back_reg_write' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:40]
+ERROR: [VRFC 10-3180] cannot find port 'write_back_rd' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:39]
+INFO: [#UNDEF] Sorry, too many errors..
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
