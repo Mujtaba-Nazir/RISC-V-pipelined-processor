@@ -15,7 +15,7 @@ module InstructionFetch (
     // Instantiate Instruction Memory
     InstructionMemory IM (
         .i_address(int_pc_current),
-        .i_instruction(int_instruction)
+        .o_instruction(int_instruction)
     );
 
     // Instantiate IF/ID Pipeline Register

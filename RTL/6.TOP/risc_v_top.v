@@ -20,6 +20,8 @@ module RISC_V_Processor (
     wire [31:0] write_back_data;
     wire [4:0] write_back_rd;
     wire write_back_reg_write;
+    
+    wire [1:0] int_id_ex_alu_op;
 
     // **Instruction Fetch Stage**
     InstructionFetch IF_stage (
@@ -31,8 +33,8 @@ module RISC_V_Processor (
 
     // **Instruction Decode Stage**
     InstructionDecode ID_stage (
-        .i_clk(clk),
-        .i_reset(reset),
+        .i_clk(i_clk),
+        .i_reset(i_reset),
         .i_if_id_instruction(if_id_instr),
         .i_if_id_pc(if_id_pc),
         .i_id_ex_rd(),
@@ -44,7 +46,7 @@ module RISC_V_Processor (
         .o_id_ex_rs1(id_ex_rs1),
         .o_id_ex_rs2(id_ex_rs2),
         .o_id_ex_rd(id_ex_rd),
-        .id_ex_alu_control(id_ex_alu_control),
+        .o_id_ex_alu_op(int_id_ex_alu_op),
         .o_id_ex_reg_write(id_ex_reg_write),
         .o_id_ex_mem_read(id_ex_mem_read),
         .o_id_ex_mem_write(id_ex_mem_write),
@@ -54,8 +56,8 @@ module RISC_V_Processor (
 
     // **Execute Stage**
     Execute EX_stage (
-        .i_clk(clk),
-        .i_reset(reset),
+        .i_clk(i_clk),
+        .i_reset(i_reset),
         .i_id_ex_pc(id_ex_pc),
         .i_id_ex_read_data1(id_ex_read_data1),
         .i_id_ex_read_data2(id_ex_read_data2),
@@ -68,14 +70,14 @@ module RISC_V_Processor (
         .i_id_ex_mem_read(id_ex_mem_read),
         .i_id_ex_mem_write(id_ex_mem_write),
         .i_id_ex_mem_to_reg(id_ex_mem_to_reg),
-        .i_id_ex_branch(),
-        .i_id_ex_alu_op(),
-        .i_ex_mem_rd(),
-        .i_mem_wb_rd(),
-        .i_ex_mem_reg_write(),
-        .i_mem_wb_reg_write(),
-        .i_ex_mem_alu_result(),
-        .i_mem_wb_write_data(),
+        .i_id_ex_branch(),                          // open
+        .i_id_ex_alu_op(int_id_ex_alu_op),    //
+        .i_ex_mem_rd(write_back_rd),         //
+        .i_mem_wb_rd(mem_wb_rd),               //
+        .i_ex_mem_reg_write(ex_mem_reg_write),//
+        .i_mem_wb_reg_write(mem_wb_reg_write), //
+        .i_ex_mem_alu_result(mem_wb_alu_result),//
+        .i_mem_wb_write_data(write_back_data),//
         .o_ex_mem_alu_result(ex_mem_alu_result),
         .o_ex_mem_write_data(ex_mem_write_data),
         .o_ex_mem_rd(ex_mem_rd),
@@ -87,8 +89,8 @@ module RISC_V_Processor (
 
     // **Memory Access Stage**
     MemoryAccess MEM_stage (
-        .i_clk(clk),
-        .i_reset(reset),
+        .i_clk(i_clk),
+        .i_reset(i_reset),
         .i_ex_mem_alu_result(ex_mem_alu_result),
         .i_ex_mem_write_data(ex_mem_write_data),
         .i_ex_mem_rd(ex_mem_rd),

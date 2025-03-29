@@ -6,16 +6,16 @@ module RISC_V_Processor_tb;
 
     // Instantiate the processor
     RISC_V_Processor DUT (
-        .clk(clk),
-        .reset(reset)
+        .i_clk(clk),
+        .i_reset(reset)
     );
 
     // Clock generation
-    always #5 clk = ~clk;  // 10ns clock period
+    always #10 clk = ~clk;  // 10ns clock period
 
     initial begin
         // Initialize signals
-        clk = 0;
+        clk = 1;
         reset = 1;
         
         // Hold reset for some time
@@ -32,10 +32,10 @@ module RISC_V_Processor_tb;
         DUT.IF_stage.IM.instruction_memory[4] = 32'b0000000_00110_00000_010_00000_0100011; // SW x6, 2(x0)
 
         // Simulate for some time
-        #200;
+        //#200;
 
         // End simulation
-        $stop;
+       // $stop;
     end
 
 endmodule

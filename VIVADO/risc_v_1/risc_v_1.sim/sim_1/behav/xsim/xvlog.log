@@ -42,5 +42,3 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC
 INFO: [VRFC 10-311] analyzing module WriteBackMux
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/SIM/risc_v_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module RISC_V_Processor_tb
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/VIVADO/risc_v_1/risc_v_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,2 @@
+Time resolution is 1 ps
+WARNING: File instructions.mem referenced on C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/5.WRITE BACK/write_back.v at line 23 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.

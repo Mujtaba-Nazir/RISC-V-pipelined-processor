@@ -80,7 +80,7 @@ module InstructionDecode (
     ID_EX_PipelineReg ID_EX (
         .i_clk(i_clk),
         .i_reset(i_reset),
-        .i_pc_in(if_id_pc),
+        .i_pc_in(i_if_id_pc),
         .i_instruction_in(i_if_id_instruction),
         .i_read_data1_in(int_read_data1),
         .i_read_data2_in(int_read_data2),
@@ -95,7 +95,7 @@ module InstructionDecode (
         .i_mem_to_reg_in(int_mem_to_reg),
         .i_branch_in(int_branch),
         .i_alu_op_in(int_alu_op),
-        .o_pc_out(id_ex_pc),
+        .o_pc_out(o_id_ex_pc),
         .o_instruction_out(o_id_ex_instruction),
         .o_read_data1_out(o_id_ex_read_data1),
         .o_read_data2_out(o_id_ex_read_data2),

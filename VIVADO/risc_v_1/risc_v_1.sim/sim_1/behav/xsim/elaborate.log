@@ -5,24 +5,73 @@ Running: D:/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-ERROR: [VRFC 10-3180] cannot find port 'if_id_pc' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:29]
-ERROR: [VRFC 10-3180] cannot find port 'if_id_instr' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:28]
-ERROR: [VRFC 10-3180] cannot find port 'reset' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:27]
-ERROR: [VRFC 10-3180] cannot find port 'clk' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:26]
-ERROR: [VRFC 10-3180] cannot find port 'id_ex_alu_src' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:53]
-ERROR: [VRFC 10-3180] cannot find port 'id_ex_mem_to_reg' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:52]
-ERROR: [VRFC 10-3180] cannot find port 'id_ex_mem_write' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:51]
-ERROR: [VRFC 10-3180] cannot find port 'id_ex_mem_read' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:50]
-ERROR: [VRFC 10-3180] cannot find port 'id_ex_reg_write' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:49]
-ERROR: [VRFC 10-3180] cannot find port 'id_ex_alu_control' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:48]
-ERROR: [VRFC 10-3180] cannot find port 'id_ex_rd' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:47]
-ERROR: [VRFC 10-3180] cannot find port 'id_ex_rs2' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:46]
-ERROR: [VRFC 10-3180] cannot find port 'id_ex_rs1' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:45]
-ERROR: [VRFC 10-3180] cannot find port 'id_ex_imm' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:44]
-ERROR: [VRFC 10-3180] cannot find port 'id_ex_read_data2' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:43]
-ERROR: [VRFC 10-3180] cannot find port 'id_ex_read_data1' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:42]
-ERROR: [VRFC 10-3180] cannot find port 'id_ex_pc' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:41]
-ERROR: [VRFC 10-3180] cannot find port 'write_back_reg_write' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:40]
-ERROR: [VRFC 10-3180] cannot find port 'write_back_rd' on this module [C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v:39]
-INFO: [#UNDEF] Sorry, too many errors..
-ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v" Line 1. Module RISC_V_Processor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/instruction_fetch.v" Line 1. Module InstructionFetch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/1.PC/program_counter.v" Line 1. Module ProgramCounter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/2.INSTRUCTION MEMORY/instruction_memory.v" Line 1. Module InstructionMemory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/3.IF_ID PIPELINE/if_id_register.v" Line 1. Module IF_ID_PipelineReg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/instruction_decode.v" Line 1. Module InstructionDecode doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/2.CONTROL UNIT/control_unit.v" Line 1. Module ControlUnit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/1.REGISTER FILE/redister_file.v" Line 1. Module RegisterFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/3.IMMEDIATE GENERATOR/immediate_generator.v" Line 1. Module ImmediateGenerator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/4.HAZARD DETECTION/hazard_detection.v" Line 1. Module HazardDetectionUnit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/5.ID_EX PIPELINE/id_ex_register.v" Line 1. Module ID_EX_PipelineReg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/execute.v" Line 1. Module Execute doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/2.ALU CONTROL UNIT/alu_control_unit.v" Line 1. Module ALUControlUnit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/3.FORWARDING UNIT/forwarding_unit.v" Line 1. Module ForwardingUnit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/1.ALU/alu.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/EX_MA PIPELINE/ex_ma_register.v" Line 1. Module EX_MEM_PipelineReg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/4.MEMORY ACCESS/memory_access.v" Line 1. Module MemoryAccess doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/4.MEMORY ACCESS/1.DATA MEMORY/data_memory.v" Line 1. Module DataMemory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/4.MEMORY ACCESS/2.MA_WB PIPELINE/ma_wb_register.v" Line 1. Module MEM_WB_PipelineReg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/5.WRITE BACK/write_back.v" Line 1. Module WriteBack doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/5.WRITE BACK/1.WRITE BACK MUX/write_back_mux.v" Line 1. Module WriteBackMux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/6.TOP/risc_v_top.v" Line 1. Module RISC_V_Processor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/instruction_fetch.v" Line 1. Module InstructionFetch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/1.PC/program_counter.v" Line 1. Module ProgramCounter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/2.INSTRUCTION MEMORY/instruction_memory.v" Line 1. Module InstructionMemory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/1.INSTRUCTION FETCH/3.IF_ID PIPELINE/if_id_register.v" Line 1. Module IF_ID_PipelineReg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/instruction_decode.v" Line 1. Module InstructionDecode doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/2.CONTROL UNIT/control_unit.v" Line 1. Module ControlUnit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/1.REGISTER FILE/redister_file.v" Line 1. Module RegisterFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/3.IMMEDIATE GENERATOR/immediate_generator.v" Line 1. Module ImmediateGenerator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/4.HAZARD DETECTION/hazard_detection.v" Line 1. Module HazardDetectionUnit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/2.INSTRUCTION DECODE/5.ID_EX PIPELINE/id_ex_register.v" Line 1. Module ID_EX_PipelineReg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/execute.v" Line 1. Module Execute doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/2.ALU CONTROL UNIT/alu_control_unit.v" Line 1. Module ALUControlUnit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/3.FORWARDING UNIT/forwarding_unit.v" Line 1. Module ForwardingUnit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/1.ALU/alu.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/3.EXECUTE/EX_MA PIPELINE/ex_ma_register.v" Line 1. Module EX_MEM_PipelineReg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/4.MEMORY ACCESS/memory_access.v" Line 1. Module MemoryAccess doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/4.MEMORY ACCESS/1.DATA MEMORY/data_memory.v" Line 1. Module DataMemory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/4.MEMORY ACCESS/2.MA_WB PIPELINE/ma_wb_register.v" Line 1. Module MEM_WB_PipelineReg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/5.WRITE BACK/write_back.v" Line 1. Module WriteBack doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mujtaba Nazir/Desktop/RISC V Up/RTL/5.WRITE BACK/1.WRITE BACK MUX/write_back_mux.v" Line 1. Module WriteBackMux doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.IF_ID_PipelineReg
+Compiling module xil_defaultlib.InstructionFetch
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.ImmediateGenerator
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.ID_EX_PipelineReg
+Compiling module xil_defaultlib.InstructionDecode
+Compiling module xil_defaultlib.ALUControlUnit
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EX_MEM_PipelineReg
+Compiling module xil_defaultlib.Execute
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.MEM_WB_PipelineReg
+Compiling module xil_defaultlib.MemoryAccess
+Compiling module xil_defaultlib.WriteBackMux
+Compiling module xil_defaultlib.WriteBack
+Compiling module xil_defaultlib.RISC_V_Processor
+Compiling module xil_defaultlib.RISC_V_Processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISC_V_Processor_tb_behav
